@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: d3_cache_warmer 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 08:30+0000\n"
-"PO-Revision-Date: 2014-09-30 10:33+0100\n"
+"POT-Creation-Date: 2014-09-30 08:37+0000\n"
+"PO-Revision-Date: 2014-09-30 10:38+0100\n"
 "Last-Translator: Adri Kodde <mail@adrikodde.nl>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,20 +26,32 @@ msgstr "Installeert een taak die cachebestanden voor pagina's aanmaakt."
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:67
 #, php-format
-msgid "Page load failed for '%s'"
-msgstr "Pagina laden mislukt voor '%s'"
+msgid "Page cache couldn't be created for '%s'"
+msgstr "Paginacache kon niet gemaakt worden voor '%s'"
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:76
 #, php-format
-msgid "%s has loaded %s pages. Max: %s"
-msgstr "%s heeft %s pagina's geladen. Max: %s"
+msgid "%s has loaded %d pages. Max: %d"
+msgstr "%s heeft %d pagina's geladen. Max: %d"
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:78
 #, php-format
-msgid "%s did not load any pages. Page types: %s. Max pages: %s"
-msgstr "%s heeft geen pagina's geladen. Pagina typen: %s. Max. pagina's: %s"
+msgid "%s did not load any pages. Page types: %s. Max pages: %d"
+msgstr "%s heeft geen pagina's geladen. Pagina typen: %s. Max pagina's: %d"
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:86
 #, php-format
-msgid "%s failed with exception: %s"
+msgid "%s failed with an exception: %s"
 msgstr "%s afgebroken met foutmelding: %s"
+
+#~ msgid "Page load failed for '%s'"
+#~ msgstr "Pagina laden mislukt voor '%s'"
+
+#~ msgid "%s has loaded %s pages. Max: %s"
+#~ msgstr "%s heeft %s pagina's geladen. Max: %s"
+
+#~ msgid "%s did not load any pages. Page types: %s. Max pages: %s"
+#~ msgstr "%s heeft geen pagina's geladen. Pagina typen: %s. Max. pagina's: %s"
+
+#~ msgid "%s failed with exception: %s"
+#~ msgstr "%s afgebroken met foutmelding: %s"

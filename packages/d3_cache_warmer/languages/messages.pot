@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: d3_cache_warmer 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 08:30+0000\n"
+"POT-Creation-Date: 2014-09-30 08:37+0000\n"
 "MIME-Version: 1.0\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -19,20 +19,20 @@ msgstr ""
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:67
 #, php-format
-msgid "Page load failed for '%s'"
+msgid "Page cache couldn't be created for '%s'"
 msgstr ""
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:76
 #, php-format
-msgid "%s has loaded %s pages. Max: %s"
+msgid "%s has loaded %d pages. Max: %d"
 msgstr ""
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:78
 #, php-format
-msgid "%s did not load any pages. Page types: %s. Max pages: %s"
+msgid "%s did not load any pages. Page types: %s. Max pages: %d"
 msgstr ""
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:86
 #, php-format
-msgid "%s failed with exception: %s"
+msgid "%s failed with an exception: %s"
 msgstr ""
