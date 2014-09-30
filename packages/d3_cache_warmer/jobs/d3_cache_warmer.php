@@ -64,7 +64,7 @@ class D3CacheWarmer extends Job {
 					$page_content = $fh->getContents($page_path);
 
 					if(empty($page_content)){
-						$msg = t("Page load failed for '%s'", $page_path);
+						$msg = t("Page cache couldn't be created for '%s'", $page_path);
 						Log::addEntry($msg, $this->getJobName());
 					} else {
 						$results++;
@@ -73,9 +73,9 @@ class D3CacheWarmer extends Job {
 			}
 			
 			if($results > 0){
-				return t('%s has loaded %s pages. Max: %s', $this->getJobName(), $results, $this->max_pages);
+				return t('%s has loaded %d pages. Max: %d', $this->getJobName(), $results, $this->max_pages);
 			} else {
-				return t('%s did not load any pages. Page types: %s. Max pages: %s', $this->getJobName(), serialize($this->page_types), $this->max_pages);
+				return t('%s did not load any pages. Page types: %s. Max pages: %d', $this->getJobName(), serialize($this->page_types), $this->max_pages);
 			}
 			
 		} catch(Exception $e) {
@@ -83,7 +83,7 @@ class D3CacheWarmer extends Job {
 			// enable job status otherwise it keeps running
 			$this->setJobStatus('ENABLED');
 
-			$msg = t('%s failed with exception: %s', $this->getJobName(), $e->getMessage());
+			$msg = t('%s failed with an exception: %s', $this->getJobName(), $e->getMessage());
 			Log::addEntry($msg, $this->getJobName());
 			
 			return $msg;

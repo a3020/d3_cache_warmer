@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: d3_cache_warmer 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 08:11+0000\n"
+"POT-Creation-Date: 2014-09-30 08:30+0000\n"
 "MIME-Version: 1.0\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -14,7 +14,7 @@ msgid "Cache Warmer Job"
 msgstr ""
 
 #: packages/d3_cache_warmer/controller.php:20
-msgid "Job to load specified pages or number of random pages and hence fill the cache"
+msgid "Installs a job that creates cache files for pages."
 msgstr ""
 
 #: packages/d3_cache_warmer/jobs/d3_cache_warmer.php:67

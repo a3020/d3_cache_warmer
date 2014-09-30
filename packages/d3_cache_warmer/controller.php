@@ -17,7 +17,7 @@ class D3CacheWarmerPackage extends Package {
 	}
 
 	public function getPackageDescription() {
-		return t('Job to load specified pages or number of random pages and hence fill the cache');
+		return t('Installs a job that creates cache files for pages.');
 	}
 
 	public function install() {
