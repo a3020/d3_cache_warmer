@@ -1,11 +1,6 @@
 <?php 
 defined('C5_EXECUTE') or die("Access Denied.");
 
-/*
-Author: Adri Kodde
-https://github.com/akodde/d3_cache_warmer
-*/
-
 class D3CacheWarmerPackage extends Package {
 
 	protected $pkgHandle = 'd3_cache_warmer';
